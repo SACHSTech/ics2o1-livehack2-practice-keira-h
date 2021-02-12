@@ -9,8 +9,6 @@ Created: date in 11/02/2021
 ----------------------------------------------------------
 """
 
-# Values of the lengths of the sides are squared, the sum of the two smaller values is equal to the larger value.
-
 # Get the information
 side_1 = int(input("Enter the length of side 1: "))
 side_2 = int(input("Enter the length of side 2: "))
@@ -21,7 +19,7 @@ squared_1 = side_1**2
 squared_2 = side_2**2
 squared_3 = side_3**2
 
-
+# Compute Results
 if squared_1 + squared_2 == squared_3 or squared_2 + squared_3 == squared_1 or squared_1 + squared_3 == squared_2:
   print("The triangle with side lengths " + str(side_1) + ", " + str(side_2) + ", and " + str(side_3) + " form a right-angled traingle.")
 else:
